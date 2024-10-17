@@ -1,0 +1,442 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 1870px;
+    width: 1440px;
+    position: relative;
+    align-items: center;
+}
+.header{
+    display: flex;
+    width: 1110px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.button{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #E8EFF2;    
+    border: none;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.promo{
+    display: flex;
+    gap: 139px;
+    padding-top: 83px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.satauri{
+    font-family: Barlow;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 56px;
+    text-align: left; 
+    height: 80px;   
+}
+.agwera{
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #7B8BAD;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.button2{
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #F16718;    
+    border: none;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.release{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #7B8BAD;
+}
+.surati{
+    width: 40px;
+    height: 40px;
+}
+.promo2{
+    display: flex;
+    padding-top: 30px;
+}
+.suratebi{
+    display: flex;
+    gap: 30px;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 125px;
+}
+.satauri2{
+    font-family: Barlow;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    color: #162542;    
+}
+.agwera2{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #7B8BAD;    
+}
+.divebi{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 140px;
+}
+.divdivi{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 323px;    
+}
+.ertoba{
+    display: flex;
+    gap: 30px;
+}
+.satauri3{
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: left;
+    width: 255px;
+    height: 56px;        
+}
+.agwera3{
+    width: 255px;
+    height: 56px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #7B8BAD;
+}
+.surati2{
+    height: 65px;
+    width: 65px;
+    padding-bottom: 25px;
+}
+.footer{
+    position: absolute;
+    bottom: 50px;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #7B8BAD;    
+}
+.meveqvse{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+.araperi{
+    width: 255px;
+    height: 240px;
+    top: 196px;
+    right: -125px;
+    border-radius: 20px;    
+    position: absolute;
+    background-color: #E8EFF2;
+    clip-path: inset(0 125px 0 0);
+}
+.araperi2{
+    width: 255px;
+    height: 236px;
+    top: 945px;
+    left: -147px;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+    position: absolute;
+    clip-path: inset(0 0 0 147px); 
+}
+:hover.button{
+    background-color: #162542;
+    transition-duration: 500ms;
+    color: white;
+}
+:hover.button2{
+    background-color: #FF9B62;
+    transition-duration: 500ms;
+}
+@media (max-width: 768px){
+    .araperi{
+        display: none;
+    }
+    .araperi2{
+        display: none;
+    }
+    .promo2{
+        flex-direction: column;
+    }
+    .foto1{
+        width: 214px;
+        height: 320px;
+    }
+    .foto2{
+        width: 445px;
+        height: 320px;
+    }
+    .text2{
+        flex-direction: row;
+        padding-left: 0px;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    .promo2{
+        gap: 50px;
+    }
+    .foto3{
+        width: 478px;
+        height: 425px;       
+        clip-path: inset(0 99px 0 0); 
+    }
+    .promo{
+        gap: 10px;
+    }
+    .header{
+        width: 689px;
+        height: 58px;
+    }
+    .satauri{
+        font-family: Barlow;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: left;
+        width: 339px;
+        height: 96px;                
+    }
+    .agwera{
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        width: 339px;
+        height: 78px;                
+    }
+    .br1{
+        display: none;
+    }
+    .br2{
+        display: none;
+    }
+    .container{
+        width: 768px;
+        height: 2128px;
+    }
+    .satauri{
+        font-family: Barlow;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        text-align: left;
+        width: 339px;
+        height: 96px;                
+    }
+    .agwera{
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        width: 339px;
+        height: 78px;                
+    }
+    .text{
+        padding-left: 135px;
+    }
+    .br3{
+        display: none;
+    }
+    .br4{
+        display: none;
+    }
+    .br5{
+        display: none;
+    }
+    .br6{
+        display: none;
+    }
+    .agwera2{
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        width: 398px;
+        height: 78px;
+        padding-top: 25px;
+        padding-left: 25px;                
+    }
+    .release{
+        width: 127px;
+    }
+    .divebi{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .ertoba{
+        gap: 60px;
+    }
+    .footer{
+        bottom: 0px;
+    }
+    .br7{
+        display: none;
+    }
+    .br8{
+        display: none;
+    }
+    .br9{
+        display: none;
+    }
+    .br10{
+        display: none;
+    }
+}
+@media (max-width: 376px){
+    .container{
+        width: 375px;
+        height: 3125px;
+        box-sizing: border-box;        
+    }
+    .header{
+        width: 370px;
+        height: 48px;        
+    }
+    .text{
+        width: 327px;
+        height: 286px;        
+        padding-left: 0px;
+    }
+    .promo{
+        flex-direction: column;
+        width: 375px;
+        justify-content: space-between;
+        height: 740px;
+    }
+    .foto3{
+        width: 372px;
+        height: 331px;        
+        clip-path: none;
+    }
+    .foto1{
+        width: 129px;
+        height: 193px;        
+    }
+    .foto2{
+        width: 220px;
+        height: 193px;        
+    }
+    .text2{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+    .satauri2{
+        font-family: Barlow;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        text-align: center; 
+        width: 255px;
+        height: 108px;                
+    }
+    .agwera2{
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        width: 327px;
+        height: 104px;     
+        padding-left: 0px;
+        padding-top: 0px;           
+    }
+    .divdivi{
+        align-items: center;
+    }
+    .divebi{
+        padding-top: 30px;
+    }
+    .ertoba{
+        flex-direction: column;
+    }
+    .satauri3{
+        font-family: Barlow;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 28px;
+        text-align: center;        
+    }
+    .agwera3{
+        width: 327px;
+        height: 104px;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;                
+    }
+    .surati2{
+        padding-bottom: 10px;
+    }
+    .order{
+        align-items: center;
+    }
+    .release{
+        width: 144px;
+    }
+    .suratebi{
+        gap: 25px;
+    }
+}
